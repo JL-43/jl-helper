@@ -1,8 +1,6 @@
+import arrayCheck from './array-check.js';
 const arithmeticMean = (array) => {
-	if (!Array.isArray(array)) {
-		console.log('Not an array!');
-		return;
+	if (!arrayCheck(array)) {
 	}
-
 	return array.reduce((a, b) => a + b) / array.length;
 };

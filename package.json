@@ -1,0 +1,20 @@
+{
+  "name": "jl-helper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "arithmetic-mean.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JL-43/jl-helper.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JL-43/jl-helper/issues"
+  },
+  "homepage": "https://github.com/JL-43/jl-helper#readme"
+}
