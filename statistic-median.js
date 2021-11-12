@@ -3,6 +3,8 @@ const statMedian = (array) => {
 	if (!arrayCheck(array)) {
 	}
 
+	array = array.sort();
+
 	if (array.length % 2 === 0) {
 		let med_hi = array.length / 2;
 		let med_lo = med_hi - 1;
