@@ -11,5 +11,4 @@ const statMedian = (array) => {
 	return array[array.length / 2 - 0.5];
 };
 
-const result = statMedian([4, 9, 15, 19, 23, 29]);
-console.log(result);
+export default statMedian;
